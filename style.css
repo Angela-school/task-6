@@ -1,0 +1,87 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+/*        index.html         */
+body {
+  text-align: center;
+}
+
+header {
+  background-color: #D362EF; 
+  width: 100%;
+  height: auto;
+  font-size: 2vw;
+  padding: 5px;
+  color: white;
+}
+.nav {
+  background-color: #9F74A9;
+  width: 100%;
+  padding: 5px;
+  color: white;
+  font-size: 2vw;
+}
+/*         Main part of layout         */
+.collect {
+  background-color: white;
+  margin: 30px;
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr 3fr;
+  color: white;
+}
+.headerbox {
+  background-color: #CD9FDD;
+  padding: 10px;
+  margin: 20px;
+}
+.mainbox {
+  background-color: black;
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/*         footer css        */
+footer {
+  background-color: lightgray;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr; 
+}
+.fotbox {
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+}
+.c1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+/*     This is for degrees page wooow    */
+.bachelor {
+  padding: 10px;
+}
+.title {
+  padding: 3px;
+  border-width: 2px; 
+  border-color: black;
+  border-style: solid;
+}
+.container {
+  padding: 5px;
+  display: grid;
+  grid-template-rows: 200px 200px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.childitem {
+  padding: 10px; 
+  margin: 2px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
